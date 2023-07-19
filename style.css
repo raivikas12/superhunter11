@@ -1,0 +1,103 @@
+/* FONT */
+@font-face {
+    font-family: "Marvel";
+    src: url("/fonts/Marvel.ttf") format('truetype');
+}
+
+.d-flex {
+    width: 100% !important;
+}
+
+.superHeroName {
+    font-family: "Hero" !important;
+}
+
+.fa-solid, .fa-regular  {
+    font-size: 2rem !important;
+    text-decoration: none;
+    margin-left: 1rem !important;
+}
+
+
+body {
+    background-image: url("./assets/images/ComicBG.jpg") ;
+}
+
+.navbar-brand > h1 {
+    color: #23046b;
+    font-size: 3rem;
+
+}
+
+.navbar-brand > h1:hover {
+    color: #ce3a42;
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    color: rgb(87, 20, 20) !important; 
+}
+
+.carousel-inner div img{
+    height: 2% !important;    
+}
+
+.carousel-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 8rem !important;
+}
+
+.card-section {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem !important;
+
+}
+
+
+section .card-title {
+    font-family: Marvel;
+    font-weight: bold !important;
+    font-size: 2rem !important;
+}
+
+.no-fav {
+    margin-top: 30% !important;
+    color: rgb(255, 255, 255) !important;
+}
+.fav-margin {
+    margin-top: 8% !important;
+}
+
+/* Footer Section */
+
+footer {
+    margin: 0px;
+    position: fixed !important; 
+    top: 94%;
+    margin-top: 1%;
+    /* padding-top: 5px !important; 
+    padding-bottom: 5px !important; */
+    width: 100%; 
+    height: 20%;
+    background-color: rgb(78, 78, 142);
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-align: center;
+    font-size: 1.5rem !important;
+    font-weight: 500; 
+
+ }
+
+ .fa-github {
+    color: rgb(255, 32, 32);
+    font-size: 1.5rem !important;
+
+
+ }
+
+ .fa-linkedin {
+    color: blue;
+    font-size: 1.5rem !important;
+
+ }
